@@ -34,7 +34,7 @@ public class SUVBuilder : ICarBuilder<SUV>
             return this;
     }
 
-    public SUVBuilder SetOffRoadCapability(int capability)
+    public ICarBuilder<SUV> SetOffRoadCapability(int capability)
     {
         _suv.OffRoadCapability = capability;
         return this;

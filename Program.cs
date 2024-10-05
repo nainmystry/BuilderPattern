@@ -15,12 +15,12 @@ Console.WriteLine(sportsCar);
 
 
 var suvBuilder = new SUVBuilder();
-            var mySUV = suvBuilder
-                .SetOffRoadCapability(10)
-                .SetMake("Toyota")
-                .SetModel("Land Cruiser")
-                .SetYear(2023)
-                .SetColor("Black")
-                .Build();
+var mySUV = suvBuilder
+    .SetOffRoadCapability(10)
+    .SetMake("Toyota")
+    .SetModel("Land Cruiser")
+    .SetYear(2023)
+    .SetColor("Black")               
+    .Build();
 
 Console.WriteLine(mySUV);

@@ -35,7 +35,7 @@ public class SportsCarBuilder : ICarBuilder<SportsCar>
         return this;
     }
 
-    public SportsCarBuilder SetTopSpeed(int speed)
+    public ICarBuilder<SportsCar> SetTopSpeed(int speed)
     {
         _sportsCar.TopSpeed = speed;
         return this;
